@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-19T16:48:54.415Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3132000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.massmutual.automation.excercise1.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate Values and Balances",
+        "description": "",
+        "id": "verify-values-and-total-balance;validate-values-and-balances",
+        "after": [
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.massmutual.automation.excercise1.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "URL is launched",
+            "match": {
+              "location": "com.massmutual.automation.excercise1.steps.Hooks.url_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 397000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "all values are displayed on screen",
+            "match": {
+              "location": "com.massmutual.automation.excercise1.steps.ValuesSteps.all_values_are_displayed_on_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "count of values and amounts should be 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 38
+                }
+              ],
+              "location": "com.massmutual.automation.excercise1.steps.ValuesSteps.count_of_values_and_amounts_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "values should be greater than 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 30
+                }
+              ],
+              "location": "com.massmutual.automation.excercise1.steps.ValuesSteps.values_should_be_greater_than(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "total balance should be correct",
+            "match": {
+              "location": "com.massmutual.automation.excercise1.steps.ValuesSteps.total_balance_should_be_correct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "values should be formatted as currencies",
+            "match": {
+              "location": "com.massmutual.automation.excercise1.steps.ValuesSteps.values_should_be_formatted_as_currencies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "total balance should match the sum of the values",
+            "match": {
+              "location": "com.massmutual.automation.excercise1.steps.ValuesSteps.total_balance_should_match_the_sum_of_the_values()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Values and Total Balance",
+    "description": "",
+    "id": "verify-values-and-total-balance",
+    "keyword": "Feature",
+    "uri": "file:features/exercise1.feature",
+    "tags": []
+  }
+]

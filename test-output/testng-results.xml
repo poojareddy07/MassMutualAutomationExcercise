@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Launced URL: https://www.exercise1.com/values]]>
+    </line>
+    <line>
+      <![CDATA[[[[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']]] is visible]]>
+    </line>
+    <line>
+      <![CDATA[[[[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']]] is visible]]>
+    </line>
+    <line>
+      <![CDATA[Closed Browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5280" started-at="2021-12-19T11:48:53 EST" finished-at="2021-12-19T11:48:58 EST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.massmutual.automation.excercise1.runner.TestRunner@7113b13f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="5280" started-at="2021-12-19T11:48:53 EST" finished-at="2021-12-19T11:48:58 EST">
+      <class name="com.massmutual.automation.excercise1.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.massmutual.automation.excercise1.runner.TestRunner@7113b13f]" name="setUpClass" is-config="true" duration-ms="652" started-at="2021-12-19T11:48:53 EST" finished-at="2021-12-19T11:48:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.massmutual.automation.excercise1.runner.TestRunner@7113b13f]" name="runScenario" duration-ms="4387" started-at="2021-12-19T11:48:54 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-19T11:48:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Values and Balances"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Values and Total Balance]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launced URL: https://www.exercise1.com/values]]>
+            </line>
+            <line>
+              <![CDATA[[[[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='lbl_val']]] is visible]]>
+            </line>
+            <line>
+              <![CDATA[[[[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']], [[ChromeDriver: chrome on MAC (27d8a26423ebf2185888d2becda37a3a)] -> css selector: [id*='txt_val']]] is visible]]>
+            </line>
+            <line>
+              <![CDATA[Closed Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.massmutual.automation.excercise1.runner.TestRunner@7113b13f]" name="tearDownClass" is-config="true" duration-ms="188" started-at="2021-12-19T11:48:58 EST" finished-at="2021-12-19T11:48:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="generateHTMLReports()[pri:0, instance:com.massmutual.automation.excercise1.runner.TestRunner@7113b13f]" name="generateHTMLReports" is-config="true" duration-ms="1062" started-at="2021-12-19T11:48:58 EST" finished-at="2021-12-19T11:48:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateHTMLReports -->
+      </class> <!-- com.massmutual.automation.excercise1.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
